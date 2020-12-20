@@ -1,6 +1,6 @@
 ## A Decision Support Tool to Assess Recreational Harvest Slots, Discard Mortality, and Bycatch Accountability
 
-SS v3.3 input files and example R code to run the simulations
+SS v3.3 input files and example R code to run the simulations.   
 Assessment model inputs taken from Gulf of Mexico red snapper SEDAR 52 [http://sedarweb.org/sedar-52](http://sedarweb.org/sedar-52)
 
 #### Note
