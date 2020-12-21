@@ -47,7 +47,7 @@ mods <- read.table("models.csv",sep=",",head=TRUE)
 #								but if we want forecast age comps, we will need a report.sso
 #								that can be made later
 #	forecast_original.ss 	----->	SPR target set low (=0.1), will be adjusted in loop below
-#							fleet allocation basis = 3 (retainbio)
+#							fleet allocation basis = 2 (deadbio), assign discard fleets (9-12) to allocation groups
 #							set values for allocation groups 0.51 com to 0.49 rec
 #							note number of forecast years = 60 to avoid boundary effects on 2032
 #	ss_original.par		----->	base model output parameters (i.e., re-estimated parameter values if assessment DMrec assumptions have been modified)
