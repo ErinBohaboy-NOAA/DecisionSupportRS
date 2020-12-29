@@ -1,17 +1,17 @@
-#V3.30.12.00_Stock_Synthesis_by_Richard_Methot_(NOAA)_using_ADMB_11.6
+#V3.30.12.00-trans-beta;_2018_07_06;_Stock_Synthesis_by_Richard_Methot_(NOAA)_using_ADMB_11.6
 #Stock Synthesis (SS) is a work of the U.S. Government and is not subject to copyright protection in the United States.
 #Foreign copyrights may apply. See copyright.txt for more information.
 #_user_support_available_at:NMFS.Stock.Synthesis@noaa.gov
 #_user_info_available_at:https://vlab.ncep.noaa.gov/group/stock-synthesis
-#_A Decision Support Tool to Assess Recreational Harvest Slots, Discard Mortality, and Bycatch Accountability
-#_Erin C. Bohaboy, erin.bohaboy@noaa.gov, Jan2021
-#C SEDAR 52 Gulf of Mexico Red Snapper converted to v3.30 SS assessment data file - see http://sedarweb.org/sedar-52
-#C _comment
-#C _comment
-#_comment
-#_comment
-#_comment
-#_comment
+#_Start_time: Thu Jul 12 14:58:32 2018
+#_Number_of_datafiles: 1
+#C data file created using the SS_writedat function in the R package r4ss
+#C should work with SS version: 3.24
+#C file write time: 2018-03-01 12:24:05
+#_observed data: 
+#V3.30.12.00-trans-beta;_2018_07_06;_Stock_Synthesis_by_Richard_Methot_(NOAA)_using_ADMB_11.6
+#Stock Synthesis (SS) is a work of the U.S. Government and is not subject to copyright protection in the United States.
+#Foreign copyrights may apply. See copyright.txt for more information.
 1872 #_StartYr
 2016 #_EndYr
 1 #_Nseas
@@ -37,10 +37,10 @@
  1 -1 2 2 0 MRIP_W  # 6
  1 -1 1 2 0 HBT_E  # 7
  1 -1 2 2 0 HBT_W  # 8
- 2 -1 1 2 0 C_Clsd_E  # 9
- 2 -1 2 2 0 C_Clsd_W  # 10
- 2 -1 1 2 0 R_Clsd_E  # 11
- 2 -1 2 2 0 R_Clsd_W  # 12
+ 1 -1 1 2 0 C_Clsd_E  # 9
+ 1 -1 2 2 0 C_Clsd_W  # 10
+ 1 -1 1 2 0 R_Clsd_E  # 11
+ 1 -1 2 2 0 R_Clsd_W  # 12
  2 -1 1 2 0 Shr_E  # 13
  2 -1 2 2 0 Shr_W  # 14
  3 1 1 2 0 Video_E  # 15
@@ -66,10 +66,6 @@
 #e:  last year of range
 #f:  not used
 # a   b   c   d   e   f 
- 9 1 1 0 0 0  # C_Clsd_E
- 10 1 1 0 0 0  # C_Clsd_W
- 11 1 1 0 0 0  # R_Clsd_E
- 12 1 1 0 0 0  # R_Clsd_W
  13 1 1 0 0 0  # Shr_E
  14 1 1 0 0 0  # Shr_W
 #_Catch data: yr, seas, fleet, catch, catch_se

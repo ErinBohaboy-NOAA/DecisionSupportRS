@@ -1,13 +1,13 @@
-#V3.30.12.00_Stock_Synthesis_by_Richard_Methot_(NOAA)_using_ADMB_11.6
+#V3.30.12.00-beta-safe;_2018_07_11;_Stock_Synthesis_by_Richard_Methot_(NOAA)_using_ADMB_11.6
 #Stock Synthesis (SS) is a work of the U.S. Government and is not subject to copyright protection in the United States.
 #Foreign copyrights may apply. See copyright.txt for more information.
 #_user_support_available_at:NMFS.Stock.Synthesis@noaa.gov
 #_user_info_available_at:https://vlab.ncep.noaa.gov/group/stock-synthesis
 #_data_and_control_files: rsnapper.dat // rsnapper.ctl
-# forecast input file for A Decision Support Tool to Assess Recreational Harvest Slots, Discard Mortality, and Bycatch Accountability
-#  modified SEDAR 52 Gulf of Mexico Red Snapper v3.24 SS assessment control file - see http://sedarweb.org/sedar-52
-#	converted to v3.30, modified for dome-shaped retention of rec fleets, time blocks added for forecast change in DMrec and landing length regs.
-#	Erin C. Bohaboy, erin.bohaboy@noaa.gov, Jan2021
+#  Erin Bohaboy Modify for CRP harvest slots/limits analysis
+#
+#
+#
 #  ----------------------------------------------------------------------------------------------------------------------------
 #    INTRO TO PATTERNS AND BLOCKS / TIME-VARYING PARMS
  0  	# 0 means do not read wtatage.ss; 1 means read and use wtatage.ss and also read and use growth parameters
